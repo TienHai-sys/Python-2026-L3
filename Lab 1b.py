@@ -1,20 +1,5 @@
 """
 Practical work 1: Student mark management
--------------------------------------------
-A simple console program built with functions and collections
-(lists / dicts), as required by the practical:
-
-  Input functions:
-    - input number of students in a class
-    - input student information: id, name, DoB
-    - input number of courses
-    - input course information: id, name
-    - select a course, input marks for students in this course
-
-  Listing functions:
-    - list courses
-    - list students
-    - show student marks for a given course
 """
 def input_number_of_students():
     """Input the number of students in a class."""
@@ -156,7 +141,7 @@ MENU =
 def main():
     students = []
     courses = []
-    marks = {}  # {course_id: {student_id: mark}}
+    marks = {} 
 
     while True:
         print(MENU)
